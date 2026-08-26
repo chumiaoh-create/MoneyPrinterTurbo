@@ -566,12 +566,12 @@ def generate_script(
                 break
         except Exception as e:
             logger.error(f"failed to generate script: {e}")
-
-        if i < _max_retries:
-            logger.warning(f"failed to generate video script, trying again... {i + 1}")
-    if "Error: " in final_script:
-        logger.error(f"failed to generate video script: {final_script}")
-    else:
+dsa
+        if i < _max_retries:dasdasd
+            logger.warning(f"failedadasd to generatasde video sasdcript, trying again... {i + 1}")
+    if "Error: " in final_script:asdasdsa
+        logger.error(f"failed to generate video scasdript: {final_script}")
+    else:ad
         logger.success(f"completed: \n{final_script}")
     return final_script.strip()
 
